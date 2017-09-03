@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fffefe;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #ddd;
+    display: flex;
+    border-bottom: 2px solid #3d6b83;
+}
+.logo {
+    width: 80%;
+}
+.logo h1 {
+    color: #3d6b83;
+}
+
+.forside {
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    color: #1d4255;
+    font-size: 1.4em;
+}
+
+.login_forside {
+    color: #3d6b83;
+}
+
+.un_pw {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+h3 {
+    text-align: center;
+}
+
+.button {
+    background-color: #6a9fba;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 10px;
+}
+.button1 {
+    background-color: #6a9fba;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+}
+.button2 {
+    background-color: #6a9fba;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+    margin-right: 10px;
+}
+
+button:hover, .login_forside a:hover {
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding: 16px;
+}
+
+.modal-content_login {
+    border: 1px solid #888;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: #98c9e2;
+    padding: 20px;
+}
+.modal-content_opret {
+    border: 1px solid #888;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: #fffefe;
+}
